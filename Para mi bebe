@@ -1,0 +1,29 @@
+import random
+
+def mensaje_bonito():
+    corazones = [
+        "  ❤️   ❤️",
+        " ❤️❤️❤️❤️",
+        "❤️❤️❤️❤️❤️",
+        " ❤️❤️❤️❤️",
+        "  ❤️❤️❤️",
+        "    ❤️"
+    ]
+    mensajes = [
+        "Usted es mi inspiración diaria. Su amor me hace mejor persona.",
+        "No hay palabras suficientes para expresar cuánto valoro su presencia en mi vida.",
+        "Cada día a su lado es un regalo del destino. Gracias por todo lo que hace por mí.",
+        "Su amor es el mejor regalo que he recibido. Le amo más de lo que las palabras pueden expresar.",
+        "En sus ojos encuentro el reflejo de mi felicidad. Nunca cambie, por favor.",
+        "Usted hace que cada día sea especial con su ternura y su presencia. Le admiro profundamente.",
+        "Saber que estoy a su lado me llena de paz y alegría. Gracias por ser quien es."
+    ]
+    
+    mensaje = random.choice(mensajes)
+    corazon = random.choice(corazones)
+    
+    print(f"\n{corazon}\n")
+    print(mensaje)
+    print("\n")
+
+mensaje_bonito()
